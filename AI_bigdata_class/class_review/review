@@ -1,0 +1,40 @@
+Postech AI Big data class
+01.07
+
+1. linux install
+
+- sudo apt-get install fcitx-hangul // language install
+ (text_entry 한글선택)
+- python(파이썬 2버젼에 접속) - 간단한 동적타이핑 가능
+
+
+2. pycharm community install
+- cd ./pycharm~~~ /bin 디렉토리 이동
+- cd ./pycharm.sh (terminal에서 파이참 접근)
+
+파이참 환경설정
+
+
+3. linux command
+
+- ls(현재 있는곳의 디렉토리를 보여줌)
+- pwd(현재작업경로를 보여줌)
+- cd(change directory)
+- . (current directory)
+- cd ./Downloads/
+- ctrl + d : 탈출
+- ctrl + shift + v
+- 파일 카피 : cp test.txt test2.txt
+
+4. python
+# test 01
+# import keyword
+# keyword.kwlist - 예약어 목록.
+
+print("I eat %d apple" % 3) # 문자열내에 변수값을 출력하고 싶음 %
+
+4. 주피터 노트북
+- conda activate
+- cd test/
+- jupyter notebook
+

@@ -1,0 +1,20 @@
+digraph Tree {
+node [shape=box, style="filled", color="black"] ;
+0 [label="mean concave points <= 0.051\nsamples = 398\nvalue = [146, 252]\nclass = 1", fillcolor="#399de56b"] ;
+1 [label="mean texture <= 21.325\nsamples = 245\nvalue = [10, 235]\nclass = 1", fillcolor="#399de5f4"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="worst perimeter <= 96.065\nsamples = 195\nvalue = [1, 194]\nclass = 1", fillcolor="#399de5fe"] ;
+1 -> 2 ;
+3 [label="samples = 145\nvalue = [0, 145]\nclass = 1", fillcolor="#399de5ff"] ;
+2 -> 3 ;
+4 [label="samples = 50\nvalue = [1, 49]\nclass = 1", fillcolor="#399de5fa"] ;
+2 -> 4 ;
+5 [label="samples = 50\nvalue = [9, 41]\nclass = 1", fillcolor="#399de5c7"] ;
+1 -> 5 ;
+6 [label="worst perimeter <= 124.2\nsamples = 153\nvalue = [136, 17]\nclass = 0", fillcolor="#e58139df"] ;
+0 -> 6 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+7 [label="samples = 50\nvalue = [33, 17]\nclass = 0", fillcolor="#e581397c"] ;
+6 -> 7 ;
+8 [label="samples = 103\nvalue = [103, 0]\nclass = 0", fillcolor="#e58139ff"] ;
+6 -> 8 ;
+}
