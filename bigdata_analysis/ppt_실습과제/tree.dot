@@ -1,0 +1,32 @@
+digraph Tree {
+node [shape=box, style="filled", color="black"] ;
+0 [label="mean concave points <= 0.051\nsamples = 398\nvalue = [149, 249]\nclass = 1", fillcolor="#399de566"] ;
+1 [label="worst radius <= 16.83\nsamples = 245\nvalue = [13, 232]\nclass = 1", fillcolor="#399de5f1"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="area error <= 34.405\nsamples = 230\nvalue = [5, 225]\nclass = 1", fillcolor="#399de5f9"] ;
+1 -> 2 ;
+3 [label="worst texture <= 30.145\nsamples = 216\nvalue = [2, 214]\nclass = 1", fillcolor="#399de5fd"] ;
+2 -> 3 ;
+4 [label="samples = 189\nvalue = [0, 189]\nclass = 1", fillcolor="#399de5ff"] ;
+3 -> 4 ;
+5 [label="worst concavity <= 0.187\nsamples = 27\nvalue = [2, 25]\nclass = 1", fillcolor="#399de5eb"] ;
+3 -> 5 ;
+6 [label="samples = 17\nvalue = [0, 17]\nclass = 1", fillcolor="#399de5ff"] ;
+5 -> 6 ;
+7 [label="samples = 10\nvalue = [2, 8]\nclass = 1", fillcolor="#399de5bf"] ;
+5 -> 7 ;
+8 [label="samples = 14\nvalue = [3, 11]\nclass = 1", fillcolor="#399de5b9"] ;
+2 -> 8 ;
+9 [label="samples = 15\nvalue = [8, 7]\nclass = 0", fillcolor="#e5813920"] ;
+1 -> 9 ;
+10 [label="worst perimeter <= 114.45\nsamples = 153\nvalue = [136, 17]\nclass = 0", fillcolor="#e58139df"] ;
+0 -> 10 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+11 [label="worst texture <= 25.655\nsamples = 39\nvalue = [22, 17]\nclass = 0", fillcolor="#e581393a"] ;
+10 -> 11 ;
+12 [label="samples = 19\nvalue = [2, 17]\nclass = 1", fillcolor="#399de5e1"] ;
+11 -> 12 ;
+13 [label="samples = 20\nvalue = [20, 0]\nclass = 0", fillcolor="#e58139ff"] ;
+11 -> 13 ;
+14 [label="samples = 114\nvalue = [114, 0]\nclass = 0", fillcolor="#e58139ff"] ;
+10 -> 14 ;
+}
